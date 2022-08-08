@@ -11,3 +11,262 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wrapper{
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1320px;
+}
+
+.header{
+  box-shadow: 1px 2px 4px rgb(138 138 138 / 30%);
+}
+.space-berween{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-right p{
+  margin-right: 20px;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 18px;
+  background-color: #3391FF;
+  cursor: pointer;
+
+  transition: .25s all;
+}
+.btn:hover{
+  background-color: #589ae4;
+}
+.btnv2{
+  border: 1px solid #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 18px;
+  background-color: #3391FF;
+  cursor: pointer;
+
+  transition: .25s all;
+}
+.btnv2:hover{
+  background-color: #589ae4;
+}
+.get-ticket-btn{
+  padding: 10px 20px;
+}
+
+.wrapper h1{
+  padding: 40px 0 30px;
+  text-align: center;
+}
+
+.formFilter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selectableItem{
+  margin: 0 10px;
+  padding: 10px 15px;
+}
+.listConcerts{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+.listItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  padding: 10px 0;
+  width: 24.5%;
+  background-color: #3391FF;
+  box-shadow: 1px 2px 4px rgb(138 138 138 / 30%);
+  color: #FFFFFF;
+  margin: 0.2% 0.1%;
+  cursor: pointer;
+}
+.listItem:hover{
+  background-color: #589ae4;
+}
+.listItem div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin: 0 0 20px;
+}
+.listItem *{
+  margin: 10px 0;
+}
+.listItem h3{
+  font-size: 20px;
+}
+
+.reservationWrapper .listItem{
+  margin: 0 auto 40px;
+}
+.reservationContainer{
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.seatsBlock{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3391FF;
+  box-shadow: 1px 2px 4px rgb(138 138 138 / 30%);
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  width: 70%;
+}
+.stage{
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  width: 200px;
+  height: 70px;
+  background-color: #26b526;
+  box-shadow: 1px 2px 4px rgb(138 138 138 / 30%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 30px 0 40px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.row h5{
+  margin: 0;
+  margin-right: 10px;
+}
+.seats{
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.seat{
+  border: 1px solid #FFFFFF;
+  background-color: #22de22;
+  border-radius: 50px;
+  box-shadow: 1px 2px 4px rgb(138 138 138 / 30%);
+  width: 15px;
+  height: 15px;
+}
+
+.detailsReservedBlock{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3391FF;
+  padding: 30px;
+  box-shadow: 1px 2px 4px rgb(138 138 138 / 30%);
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  margin-left: 5px;
+  width: 24%;
+}
+.enterBookingBtn{
+  padding: 10px 30px;
+}
+
+.enterDetailsBlock{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3391FF;
+  padding: 30px;
+  box-shadow: 1px 2px 4px rgb(138 138 138 / 30%);
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  margin-left: 5px;
+  width: 70%;
+}
+.enterDetailsBlock div{
+  align-items: stretch;
+  
+}
+
+.enterDetailsForm{
+  width: 40%;
+  padding: 0 20px 0 0;
+  margin: 0 20px 0 0;
+  border-right: 1px solid #FFFFFF;
+}
+.enterDetailsForm div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+.enterDetailsForm input, select{
+  padding: 10px 14px;
+  margin: 5px 0 0;
+}
+.enterDetailsForm > div > input{
+  width: calc(100% - 28px);
+}
+.enterDetailsForm > div > select{
+  width: 100%;
+}
+.enterDetailsForm .rowLine{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.enterDetailsForm .rowLine input{
+  width: calc(100% - 28px);
+}
+.enterDetailsForm .rowLine div:first-child{
+  width: 26%;
+  margin-right: 3%;
+}
+.enterDetailsForm .rowLine div:last-child{
+  width: 60%;
+}
+.h30{
+  height: 30px;
+}
+.space-between{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.infoBooking{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.infoBooking .btnv2:last-child{
+  padding: 10px 50px;
+  align-items: center;
+}
